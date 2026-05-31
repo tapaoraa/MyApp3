@@ -1,0 +1,96 @@
+{
+  "categories": [
+    { "id": "cat1", "nom": "Progrès" },
+    { "id": "cat2", "nom": "Motricité" },
+    { "id": "cat3", "nom": "Engagement" },
+    { "id": "cat4", "nom": "Méthode" },
+    { "id": "cat5", "nom": "Comportement" }
+  ],
+  "sousCats": [
+    { "id": "sc1",  "categorieId": "cat1", "nom": "Bilan général" },
+    { "id": "sc2",  "categorieId": "cat1", "nom": "Exploitation du potentiel" },
+    { "id": "sc3",  "categorieId": "cat1", "nom": "Évolution" },
+    { "id": "sc4",  "categorieId": "cat2", "nom": "Qualités sportives" },
+    { "id": "sc5",  "categorieId": "cat2", "nom": "Motricité" },
+    { "id": "sc6",  "categorieId": "cat3", "nom": "Assiduité & Ponctualité" },
+    { "id": "sc7",  "categorieId": "cat3", "nom": "Engagement" },
+    { "id": "sc8",  "categorieId": "cat3", "nom": "Rôles" },
+    { "id": "sc9",  "categorieId": "cat3", "nom": "Participation orale" },
+    { "id": "sc10", "categorieId": "cat4", "nom": "Écoute & consignes" },
+    { "id": "sc11", "categorieId": "cat4", "nom": "Travail" },
+    { "id": "sc12", "categorieId": "cat5", "nom": "Attitude générale" },
+    { "id": "sc13", "categorieId": "cat5", "nom": "Implication collective" },
+    { "id": "sc14", "categorieId": "cat5", "nom": "Gestion des émotions" }
+  ],
+  "phrases": [
+    { "id": "p1",  "sousCatId": "sc1",  "couleur": "vert",   "texte": "une nette progression des résultats" },
+    { "id": "p2",  "sousCatId": "sc1",  "couleur": "vert",   "texte": "des progrès réguliers et encourageants" },
+    { "id": "p3",  "sousCatId": "sc1",  "couleur": "orange", "texte": "des résultats en deçà des capacités réelles" },
+    { "id": "p4",  "sousCatId": "sc1",  "couleur": "orange", "texte": "une stagnation qui nécessite une remise en question" },
+    { "id": "p5",  "sousCatId": "sc1",  "couleur": "gris",   "texte": "poursuivre efforts de cette démarche positive" },
+    { "id": "p6",  "sousCatId": "sc1",  "couleur": "gris",   "texte": "élever son niveau d'attente personnel (se challenger)" },
+
+    { "id": "p7",  "sousCatId": "sc2",  "couleur": "vert",   "texte": "des qualités mises en valeur" },
+    { "id": "p8",  "sousCatId": "sc2",  "couleur": "orange", "texte": "se repose sur ses acquis sans chercher à progresser" },
+    { "id": "p9",  "sousCatId": "sc2",  "couleur": "gris",   "texte": "élever son niveau d'attente personnel et se challenger" },
+
+    { "id": "p10", "sousCatId": "sc3",  "couleur": "vert",   "texte": "une progression dans la maitrise technique au fil des séances" },
+    { "id": "p11", "sousCatId": "sc3",  "couleur": "vert",   "texte": "tire profit des retours et bilans pour s'améliorer" },
+    { "id": "p12", "sousCatId": "sc3",  "couleur": "orange", "texte": "n'a pas pris en compte les retours formulés" },
+    { "id": "p13", "sousCatId": "sc3",  "couleur": "gris",   "texte": "s'appuyer davantage sur les retours de l'enseignant(e) pour progresser" },
+
+    { "id": "p14", "sousCatId": "sc4",  "couleur": "vert",   "texte": "des qualités athlétiques évidente" },
+    { "id": "p15", "sousCatId": "sc4",  "couleur": "vert",   "texte": "une aisance évidente dans les activités abordées" },
+
+    { "id": "p16", "sousCatId": "sc5",  "couleur": "vert",   "texte": "des gestes techniques maîtrisés et efficaces" },
+    { "id": "p17", "sousCatId": "sc5",  "couleur": "orange", "texte": "difficultés liées à l'exécution précise de gestes techniques" },
+    { "id": "p18", "sousCatId": "sc5",  "couleur": "orange", "texte": "une technique sacrifiée au profit de la puissance" },
+    { "id": "p19", "sousCatId": "sc5",  "couleur": "orange", "texte": "difficultés à transférer les gestes travaillés en situation réelle" },
+    { "id": "p20", "sousCatId": "sc5",  "couleur": "gris",   "texte": "répéter les gestes pour gagner en automatisme et en précision" },
+
+    { "id": "p21", "sousCatId": "sc6",  "couleur": "orange", "texte": "absences trop nombreuses qui freinent la progression" },
+    { "id": "p22", "sousCatId": "sc6",  "couleur": "orange", "texte": "ponctualité à travailler" },
+
+    { "id": "p23", "sousCatId": "sc7",  "couleur": "vert",   "texte": "engagement sérieux et régulier" },
+    { "id": "p24", "sousCatId": "sc7",  "couleur": "vert",   "texte": "un engagement dans l'effort physique remarqué" },
+    { "id": "p25", "sousCatId": "sc7",  "couleur": "orange", "texte": "investissement irrégulier selon les séances et activités" },
+    { "id": "p26", "sousCatId": "sc7",  "couleur": "gris",   "texte": "s'engager pleinement dans chaque situation proposée" },
+    { "id": "p27", "sousCatId": "sc7",  "couleur": "gris",   "texte": "maintenir un niveau d'implication constant quelle que soit l'activité" },
+
+    { "id": "p28", "sousCatId": "sc8",  "couleur": "orange", "texte": "ne s'investit pas dans les rôles parallèles à la pratique" },
+
+    { "id": "p29", "sousCatId": "sc9",  "couleur": "vert",   "texte": "une participation orale active et régulière" },
+    { "id": "p30", "sousCatId": "sc9",  "couleur": "vert",   "texte": "une participation orale qui se renforce" },
+    { "id": "p31", "sousCatId": "sc9",  "couleur": "orange", "texte": "en retrait lors des échanges collectifs" },
+
+    { "id": "p32", "sousCatId": "sc10", "couleur": "vert",   "texte": "écoute attentive des consignes" },
+    { "id": "p33", "sousCatId": "sc10", "couleur": "vert",   "texte": "compréhension rapide des situations proposées" },
+    { "id": "p34", "sousCatId": "sc10", "couleur": "orange", "texte": "compréhension des situations insuffisante qui génère des erreurs" },
+    { "id": "p35", "sousCatId": "sc10", "couleur": "orange", "texte": "écoute à améliorer pour mieux s'approprier les consignes" },
+    { "id": "p36", "sousCatId": "sc10", "couleur": "gris",   "texte": "ne pas démarrer sans être certain d'avoir compris — demander de reformuler si besoin" },
+
+    { "id": "p37", "sousCatId": "sc11", "couleur": "vert",   "texte": "une mise en activité rapide" },
+    { "id": "p38", "sousCatId": "sc11", "couleur": "vert",   "texte": "une application précise et autonome dans exercices" },
+    { "id": "p39", "sousCatId": "sc11", "couleur": "orange", "texte": "mise en activité tardive qui nuit aux apprentissages" },
+    { "id": "p40", "sousCatId": "sc11", "couleur": "orange", "texte": "dispersion fréquente qui réduit le temps utile de travail" },
+    { "id": "p41", "sousCatId": "sc11", "couleur": "orange", "texte": "dépendance aux sollicitations de l'enseignant(e) trop fréquente" },
+    { "id": "p42", "sousCatId": "sc11", "couleur": "gris",   "texte": "se mettre au travail immédiatement dès la fin des consignes" },
+    { "id": "p43", "sousCatId": "sc11", "couleur": "gris",   "texte": "éviter les tâches périphériques et rester centré sur les objectifs" },
+
+    { "id": "p44", "sousCatId": "sc12", "couleur": "vert",   "texte": "quelque chose qui dit une attitude calme et respectueuse" },
+    { "id": "p45", "sousCatId": "sc12", "couleur": "vert",   "texte": "attitude et énergie dynamisante pour le groupe" },
+    { "id": "p46", "sousCatId": "sc12", "couleur": "orange", "texte": "agitation récurrente qui nuit à l'évolution sereine du groupe" },
+    { "id": "p47", "sousCatId": "sc12", "couleur": "orange", "texte": "bavardages lors des temps d'échanges" },
+    { "id": "p48", "sousCatId": "sc12", "couleur": "orange", "texte": "interactions avec les autres qui manquent de bienveillance et de respect" },
+    { "id": "p49", "sousCatId": "sc12", "couleur": "gris",   "texte": "fournir des efforts de tolérance vis-à-vis des camarades" },
+    { "id": "p50", "sousCatId": "sc12", "couleur": "gris",   "texte": "canaliser son énergie au service du groupe plutôt qu'en dissipation" },
+
+    { "id": "p51", "sousCatId": "sc13", "couleur": "vert",   "texte": "propose toujours de l'aide" },
+    { "id": "p52", "sousCatId": "sc13", "couleur": "vert",   "texte": "assure missions particulière qui aide" },
+
+    { "id": "p53", "sousCatId": "sc14", "couleur": "vert",   "texte": "gestion positive de sa frustration" },
+    { "id": "p54", "sousCatId": "sc14", "couleur": "vert",   "texte": "agit en prévention et gestion de situation de tensions entre camarades" },
+    { "id": "p55", "sousCatId": "sc14", "couleur": "orange", "texte": "réactions inappropriées en situation de frustration" },
+    { "id": "p56", "sousCatId": "sc14", "couleur": "gris",   "texte": "prendre du recul dans les situations intenses" }
+  ]
+}
