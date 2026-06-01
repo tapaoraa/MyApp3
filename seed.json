@@ -17,6 +17,7 @@
     { "id": "sc8",  "categorieId": "cat3", "nom": "Rôles" },
     { "id": "sc9",  "categorieId": "cat3", "nom": "Participation orale" },
     { "id": "sc10", "categorieId": "cat4", "nom": "Écoute & consignes" },
+    { "id": "sc15", "categorieId": "cat4", "nom": "Analyse de sa pratique" },
     { "id": "sc11", "categorieId": "cat4", "nom": "Travail" },
     { "id": "sc12", "categorieId": "cat5", "nom": "Attitude générale" },
     { "id": "sc13", "categorieId": "cat5", "nom": "Implication collective" },
@@ -45,7 +46,7 @@
 
     { "id": "p16", "sousCatId": "sc5",  "couleur": "vert",   "texte": "des gestes techniques maîtrisés et efficaces" },
     { "id": "p17", "sousCatId": "sc5",  "couleur": "orange", "texte": "difficultés liées à l'exécution précise de gestes techniques" },
-    { "id": "p18", "sousCatId": "sc5",  "couleur": "orange", "texte": "une technique sacrifiée au profit de la puissance" },
+    { "id": "p18", "sousCatId": "sc5",  "couleur": "orange", "texte": "une technique encore sacrifiée au profit de la puissance" },
     { "id": "p19", "sousCatId": "sc5",  "couleur": "orange", "texte": "difficultés à transférer les gestes travaillés en situation réelle" },
     { "id": "p20", "sousCatId": "sc5",  "couleur": "gris",   "texte": "répéter les gestes pour gagner en automatisme et en précision" },
     { "id": "p58", "sousCatId": "sc5",  "couleur": "gris",   "texte": "s'appuyer sur les critères donnés pour réaliser un geste" },
@@ -60,18 +61,25 @@
     { "id": "p26", "sousCatId": "sc7",  "couleur": "gris",   "texte": "s'engager pleinement dans chaque situation proposée" },
     { "id": "p27", "sousCatId": "sc7",  "couleur": "gris",   "texte": "maintenir un niveau d'implication constant quelle que soit l'activité" },
 
-    { "id": "p28", "sousCatId": "sc8",  "couleur": "orange", "texte": "ne s'investit pas dans les rôles parallèles à la pratique" },
+    { "id": "p28", "sousCatId": "sc8",  "couleur": "vert",   "texte": "investissement rigoureux dans les rôles annexes (observation, coaching, arbitrage)" },
+    { "id": "p67", "sousCatId": "sc8",  "couleur": "orange", "texte": "ne s'investit pas dans les rôles annexes (observation, coaching, arbitrage)" },
+    { "id": "p68", "sousCatId": "sc8",  "couleur": "gris",   "texte": "prendre conscience que la pratique n'est pas le seul élément évalué en EPS" },
 
     { "id": "p29", "sousCatId": "sc9",  "couleur": "vert",   "texte": "une participation orale active et régulière" },
     { "id": "p30", "sousCatId": "sc9",  "couleur": "vert",   "texte": "une participation orale qui se renforce" },
     { "id": "p31", "sousCatId": "sc9",  "couleur": "orange", "texte": "en retrait lors des échanges collectifs" },
+    { "id": "p69", "sousCatId": "sc9",  "couleur": "gris",   "texte": "prendre part aux échanges collectifs" },
 
     { "id": "p32", "sousCatId": "sc10", "couleur": "vert",   "texte": "écoute attentive des consignes" },
     { "id": "p33", "sousCatId": "sc10", "couleur": "vert",   "texte": "compréhension rapide des situations proposées" },
     { "id": "p34", "sousCatId": "sc10", "couleur": "orange", "texte": "compréhension des situations insuffisante qui génère des erreurs" },
     { "id": "p35", "sousCatId": "sc10", "couleur": "orange", "texte": "écoute à améliorer pour mieux s'approprier les consignes" },
     { "id": "p36", "sousCatId": "sc10", "couleur": "gris",   "texte": "ne pas démarrer sans être certain d'avoir compris — demander de reformuler si besoin" },
-    { "id": "p60", "sousCatId": "sc10", "couleur": "gris",   "texte": "s'auto-évaluer à partir des critères donnés" },
+
+    { "id": "p70", "sousCatId": "sc15", "couleur": "vert",   "texte": "lien entre pratique et analyse pertinente" },
+    { "id": "p71", "sousCatId": "sc15", "couleur": "orange", "texte": "ne cherche pas à analyser sa pratique" },
+    { "id": "p72", "sousCatId": "sc15", "couleur": "orange", "texte": "n'utilise pas les critères d'évaluation donnés" },
+    { "id": "p73", "sousCatId": "sc15", "couleur": "gris",   "texte": "analyser sa pratique à partir des critères donnés" },
 
     { "id": "p37", "sousCatId": "sc11", "couleur": "vert",   "texte": "une mise en activité rapide" },
     { "id": "p38", "sousCatId": "sc11", "couleur": "vert",   "texte": "une application précise et autonome dans les exercices" },
